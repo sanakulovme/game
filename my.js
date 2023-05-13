@@ -11,10 +11,6 @@ function startGame() {
     random__num = Math.floor(Math.random() * 100);
 
     fz.style.height = random__num + '%'
-
-
-    console.log(random__num)
-
 }
 let range_disp = document.getElementById('range_disp');
 
@@ -28,7 +24,7 @@ let danger_p = document.getElementById('danger_p'),
 let h2 = document.getElementById('h2'),
     body = document.getElementById('body');
 
-let result = document.getElementById('step'),
+let result = document.getElementById('result'),
     resultNum = 0,
     rstl = document.getElementById('result'),
     step = 0
@@ -55,7 +51,6 @@ function tryFn() {
     // console.log(random__num)
     h2.innerHTML = random__num + '%'
 
-
     // ===
 
     let dn2 = parseInt(dn.value),
@@ -66,7 +61,7 @@ function tryFn() {
 
 
     console.log(dan2, war2, sc2, wa2, dn2)
-    console.log(typeof(dn2))
+    console.log(typeof (dn2))
 
 
 
@@ -115,11 +110,6 @@ function tryFn() {
     } else {
 
     }
-
-
-
-
-
 
     // console.log(dan2)
     // console.log(typeof(dn.value)) //parseInt(typeof(warning_p.value))
